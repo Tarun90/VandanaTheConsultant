@@ -1,0 +1,109 @@
+html, body{
+	margin : 0 ;
+	padding : 0 ;
+	font-family : 'Open Sans', sans-serif ;
+	text-align : center ;
+}
+*{
+	margin : 0 ;
+	padding : 0 ;
+	box-sizing : border-box ;
+}
+nav ul{
+	position : fixed ;
+	width : 100% ;
+	text-align : right ;
+	background-color : #25274D ;
+}
+nav ul li {
+	display : inline-block ;
+	margin : 25px 20px 15px 0px ;
+}
+nav ul li a{
+	color : #3AAFA9 ;
+	text-decoration : none ;
+}
+nav ul li a:hover{
+	color : white ;
+}
+
+.intro {
+	color : #FCCD04 ;
+	background : #59253A ;
+	min-height : 100vh ;
+	padding-top : 45vh ;
+}
+.intro p{
+	color : #F76C6C ;
+}
+
+#site-navigation{
+	background : #1A1A1D ;
+	color : #C5c6c7 ;
+	height : 100vh ;
+	padding : 5% ;
+}
+#site-navigation h1{
+	margin : 20px 0 40px;
+}
+#site-navigation-links{
+	width : 100% ;
+	display : flex ;
+	flex-direction : row ;
+	justify-content : space-around ;
+	
+}
+.site-navigation-feeling-tile{
+	width : 27% ;
+	height : 100 px ;
+	overflow : hidden ;
+	text-decoration : none ;
+}
+.site-navigation-link-image{
+	border : 5px solid green ;
+	width : 100% ;
+	height : 80% ;
+}
+.site-navigation-link-title{
+	text-align : center ;
+	color : #66fcf1 ;
+}
+.contact {
+	width : 100% ;
+	height : 70vh ;
+	background : #c5cbe3 ;
+	padding : 5% ;
+	
+}
+.contact header {
+	margin-bottom : 10% ;
+}
+.contact p {
+	margin-bottom : 2% ;
+	font-weight : 600 ;
+	
+}
+.contact a {
+	display : inline-block ;
+	margin : 0 2% ;
+	border: 2px solid #90C695;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	font-weight: bold;
+	font-size : .9em ;
+	line-height : 100px ;
+	text-decoration : none ;
+}
+.contact a:hover {
+  background: #eee2dc;
+  color: green;
+  border : 2px solid #ac3b61 ;
+}
+footer {
+	padding : 30px ;
+	background : #1c3334; 
+	color : #c1c8e4 ;
+	font-size : .9em ;
+}
+
